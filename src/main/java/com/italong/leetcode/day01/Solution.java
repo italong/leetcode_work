@@ -9,14 +9,14 @@ package com.italong.leetcode.day01;
 public class Solution {
     /**
      * 1.暴力破解
-     * @param sums
+     * @param nums
      * @param target
      * @return
      */
-    public int[] twoSum(int[] sums,int target){
-        for (int i = 0; i < sums.length; i++) {
-            for (int j = i+1; j < sums.length; j++) {
-                if (sums[i]+sums[j]==target){
+    public int[] twoSum(int[] nums, int target){
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i+1; j < nums.length; j++) {
+                if (nums[i]+ nums[j]==target){
                     return new int[]{i,j};
                 }
             }
