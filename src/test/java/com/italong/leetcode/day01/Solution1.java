@@ -18,6 +18,7 @@ public class Solution1 {
     public void test01(){
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         int sub = 3;
-        System.out.println(hashMap.get(3));
+        String s = "ababa";
+        System.out.println(s.charAt(1));
     }
 }
