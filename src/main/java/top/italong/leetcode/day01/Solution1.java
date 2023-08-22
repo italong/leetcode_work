@@ -1,4 +1,4 @@
-package com.italong.leetcode.day01;
+package top.italong.leetcode.day01;
 
 import java.util.HashMap;
 
@@ -8,9 +8,10 @@ import java.util.HashMap;
  * @Author along
  * @create 2023/8/14 19:12
  */
-public class Solution2 {
+public class Solution1 {
+
     /**
-     * 1.暴力破解
+     * 第一次循环会遍历全部，通过hashmap存取之前的值，比较i之前的和i之后的和来遍历
      * @param nums
      * @param target
      * @return
@@ -18,16 +19,11 @@ public class Solution2 {
     public int[] twoSum(int[] nums, int target){
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i],i);
-        }
-        for (int i = 0; i < nums.length; i++) {
-            int sub = target- nums[i];
-            if (map.get(i)+map.get(i-1)==target){
-                return new int[]{i,map.get(sub)};
-            }
+            int sub = target - nums[i];
+            if (map.containsKey(sub))
+                return new int[]{i, map.get(sub)};
+                map.put(nums[i], i);
         }
         throw new IllegalArgumentException("No two sum solution");
     }
-
-
 }

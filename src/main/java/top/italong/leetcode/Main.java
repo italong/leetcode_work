@@ -1,4 +1,4 @@
-package com.italong.leetcode;
+package top.italong.leetcode;
 
 /**
  * Create by Idea
