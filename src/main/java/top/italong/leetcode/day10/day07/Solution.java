@@ -1,4 +1,4 @@
-package top.italong.leetcode.day07;
+package top.italong.leetcode.day10.day07;
 
 import java.util.Scanner;
 

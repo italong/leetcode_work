@@ -1,4 +1,4 @@
-package top.italong.leetcode.day01;
+package top.italong.leetcode.day10.day01;
 
 import java.util.HashMap;
 

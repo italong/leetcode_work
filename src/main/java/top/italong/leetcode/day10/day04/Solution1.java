@@ -1,4 +1,4 @@
-package top.italong.leetcode.day04;
+package top.italong.leetcode.day10.day04;
 
 import java.util.Arrays;
 
