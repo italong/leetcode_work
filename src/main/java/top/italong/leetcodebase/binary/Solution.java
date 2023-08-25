@@ -17,7 +17,7 @@ public class Solution {
      * @return int整型
      */
     public int upper_bound_ (int n, int v, int[] a) {
-        v = v - 1;
+        v = v - 1;  //从0开始
         int left = 0,right = n - 1;
         while (left <= right){
             int mid = (left + right) / 2;
