@@ -1,4 +1,4 @@
-package top.italong.leetcode.day11.day01;
+package top.italong.leetcode.day20.day01;
 
 /**
  * Create by Idea
