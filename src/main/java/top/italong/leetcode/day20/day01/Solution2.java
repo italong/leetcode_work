@@ -2,7 +2,7 @@ package top.italong.leetcode.day20.day01;
 
 /**
  * Create by Idea
- *
+ * 解法2
  * @Author along
  * @create 2023/8/27 21:38
  */

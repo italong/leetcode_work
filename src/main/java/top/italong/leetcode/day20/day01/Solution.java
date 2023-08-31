@@ -2,7 +2,7 @@ package top.italong.leetcode.day20.day01;
 
 /**
  * Create by Idea
- * 11.盛最多的水
+ * 11.盛最多的水。
  * @Author along
  * @create 2023/8/27 21:11
  */
