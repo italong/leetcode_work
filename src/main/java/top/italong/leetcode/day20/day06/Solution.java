@@ -10,6 +10,8 @@ import java.util.Arrays;
  */
 public class Solution {
     public int  threeSumClosest(int[] nums, int target){
+        if (target == 0)
+            return 0;
         int res = Integer.MAX_VALUE;
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {
