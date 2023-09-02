@@ -33,6 +33,7 @@ public class Solution {
                         deque.pollFirst();
                 }
                 ans[i - k + 1] = nums[deque.peekFirst()];
+                String s = "";
             }
             return ans;
         }
