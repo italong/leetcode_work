@@ -8,7 +8,7 @@ package top.italong.leetcode.day10.day01;
  */
 public class Solution {
     /**
-     * 1.暴力破解
+     * 1.暴力破解。
      * @param nums
      * @param target
      * @return
