@@ -44,8 +44,8 @@ class Solution{
             }
             if (q != null) {
                 q = q.next;
-                temp = temp.next;
             }
+            temp = temp.next;
         }
         if (up > 0) {
             temp.next = new ListNode(up);
