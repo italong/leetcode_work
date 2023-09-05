@@ -9,7 +9,6 @@ package top.italong.leetcode.day01;
 public class Test {
     public static void main(String[] args) {
         String abc = new String("abc");
-        String abcc = new String("abc");
-        System.out.println(abc == abcc);
+        System.out.println(abc.charAt(0));
     }
 }
