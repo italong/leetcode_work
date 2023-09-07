@@ -13,7 +13,7 @@ package top.italong.leetcode.day10.day02;
  * @create 2023/8/15 19:10
  */
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
     public ListNode(int val, ListNode next) {
         this.val = val;
