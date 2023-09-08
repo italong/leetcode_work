@@ -1,5 +1,7 @@
 package top.italong.leetcode.day10.day04;
 
+import java.util.Scanner;
+
 /**
  * Create by Idea
  * 4.寻找两个正序数组的中位数
@@ -17,6 +19,7 @@ public class Solution2 {
     public double findmediasortArray(int[] num1,int[] num2){
         int n = num1.length;
         int m = num2.length;
+        Scanner scanner = new Scanner(System.in);
         boolean flag = ((m+n)%2)==0;
         int point1 = 0,point2 = 0;
         int remNum1 = 0,remNum2 = 0;
