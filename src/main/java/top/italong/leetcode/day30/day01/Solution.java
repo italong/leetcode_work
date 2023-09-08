@@ -4,7 +4,7 @@ import top.italong.leetcode.day10.day02.ListNode;
 
 /**
  * Create by Idea
- * 31.合并两个有序序列
+ * 21.合并两个有序序列
  * @Author along
  * @create 2023/9/7 14:34
  */
