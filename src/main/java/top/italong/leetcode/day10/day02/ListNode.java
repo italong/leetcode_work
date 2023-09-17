@@ -50,6 +50,6 @@ class Solution{
         if (up > 0) {
             temp.next = new ListNode(up);
         }
-        return temp.next;
+        return res.next;
     }
 }
