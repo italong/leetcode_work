@@ -9,18 +9,24 @@ import java.util.HashMap;
  * @create 2023/9/7 15:48
  */
 public class Solution1 {
-    public int lengthString(String s){
+    public static void main(String[] args) {
+        String s = "pwwkew";
+        int a = lengthString(s);
+        System.out.println(a);
+    }
+    public static int lengthString(String s){
         int count = 0;
         HashMap<Character, Integer> map = new HashMap<>();
         //i是头指针，j是尾指针
         for (int i = 0,j = 0; i < s.length(); i++) {
             //该字符出现过
-            if (map.containsKey(i)){
+            if (map.containsKey(s.charAt(i))){
                 j = Math.max(j,map.get(s.charAt(i)));
             }
             count = Math.max(count,i-j+1);
             map.put(s.charAt(i),i+1);
         }
+
         return count;
     }
 }

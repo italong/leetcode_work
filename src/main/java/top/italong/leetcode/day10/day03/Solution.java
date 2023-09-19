@@ -10,7 +10,7 @@ public class Solution {
     public int lengthString(String s){
         int count = 0;
         for (int i = 0; i < s.length(); i++) {
-            boolean[] book = new boolean[300];
+            boolean[] book = new boolean[128];
             for (int j = i; j >= 0; j--) {
               if (book[s.charAt(j)]) {
                   break;
