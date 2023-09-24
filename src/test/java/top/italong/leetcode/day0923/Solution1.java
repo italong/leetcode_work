@@ -8,7 +8,7 @@ package top.italong.leetcode.day0923;
  */
 public class Solution1 {
     public static void main(String[] args) {
-        String s = "";
+        String s = "((((()(()()()*()(((((*)()*(**(())))))(())()())(((())())())))))))(((((())*)))()))(()((*()*(*)))(*)()";
         boolean flag = isValidString(s);
         System.out.println(flag);
     }
